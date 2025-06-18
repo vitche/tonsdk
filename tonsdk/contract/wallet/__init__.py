@@ -20,6 +20,7 @@ class WalletVersionEnum(str, Enum):
     v3r2 = 'v3r2'
     v4r1 = 'v4r1'
     v4r2 = 'v4r2'
+    v5r1 = 'v5r1'
     hv2 = 'hv2'
     hv3 = 'hv3'
 
