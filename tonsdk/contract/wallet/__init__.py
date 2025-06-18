@@ -6,6 +6,7 @@ from ._wallet_contract import WalletContract
 from ._wallet_contract_v2 import WalletV2ContractR1, WalletV2ContractR2
 from ._wallet_contract_v3 import WalletV3ContractR1, WalletV3ContractR2
 from ._wallet_contract_v4 import WalletV4ContractR1, WalletV4ContractR2
+from ._wallet_contract_v5 import WalletV5ContractR1
 from ._highload_wallet_contract import HighloadWalletV2Contract
 from ._highload_wallet_contract_v3 import HighloadWalletV3Contract
 from ._multisig_wallet_contract import MultiSigWallet, MultiSigOrder, MultiSigOrderBuilder
@@ -34,6 +35,7 @@ class Wallets:
         WalletVersionEnum.v3r2: WalletV3ContractR2,
         WalletVersionEnum.v4r1: WalletV4ContractR1,
         WalletVersionEnum.v4r2: WalletV4ContractR2,
+        WalletVersionEnum.v5r1: WalletV5ContractR1,         
         WalletVersionEnum.hv2: HighloadWalletV2Contract,
         WalletVersionEnum.hv3: HighloadWalletV3Contract
     }
@@ -85,6 +87,7 @@ __all__ = [
     'WalletV3ContractR2',
     'WalletV4ContractR1',
     'WalletV4ContractR2',
+    'WalletV5ContractR1', 
     'WalletContract',
     'SendModeEnum',
     'WalletVersionEnum',
